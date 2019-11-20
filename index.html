@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact V9</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================--> 
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form ">
+				<div class="div1">
+				<span class="contact100-form-title">
+					New Event
+				</span>
+
+				<div class="wrap-input100 validate-input"  >
+					<input class="input100" type="text" name="name" placeholder="Title">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100">
+					<input class="input100" type="date" name="date" placeholder="date">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input"  >
+						Situation or event:
+					<textarea class="input100" name="message" placeholder="Situation or event"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" onclick="setDiv(2 , 1)" type="button">
+						next
+					</button>
+				</div>
+			</div>
+			<div class="div3" hidden>
+					<span class="contact100-form-title">
+						 התמודדות נוכחית  
+					</span>
+	
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="text" name="name" placeholder="הרגשה פיסית">
+						<span class="focus-input100"></span>
+					</div>
+	 
+	
+					<div class="wrap-input100 validate-input"  >
+							Thoughts (Unhelpful)
+						<textarea class="input100" name="message" placeholder="Thoughts"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+	
+					<div class="wrap-input100 validate-input"> 
+							How did you interpret what happened?
+						<textarea class="input100" name="message" placeholder="interpretation"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+	
+					<div class="wrap-input100 validate-input"> 
+							Consequence/ Behavior
+						<textarea class="input100" name="message" placeholder="Consequence"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input"> 
+							What meaning did it have for you?
+						<textarea class="input100" name="message" placeholder="What meaning did it have for you?"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 validate-input"> 
+							Belifs
+						<textarea class="input100" name="message" placeholder="Belifs"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+
+
+					<div class="wrap-input100 validate-input"> 
+							What experiences have you had which influence your interpretations
+						<textarea class="input100" name="message" placeholder="experiences  influencing"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+					<div class="container-contact100-form-btn">
+							<button class="contact100-form-btn" onclick="setDiv(2 , 3)" type="button">
+								prev
+							</button>
+						<button class="contact100-form-btn" onclick="setDiv(4 , 3)" type="button">
+							next
+						</button>
+					</div>
+				</div>
+				
+			<div class="div4" hidden> 
+					<span class="contact100-form-title">
+						התמודדות טובה יותר 
+					</span> 
+	
+					<div class="wrap-input100 validate-input"  >
+							facts that support the unhelpful thoughts
+						<textarea class="input100" name="message" placeholder="facts that support the unhelpful thoughts"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+	
+					<div class="wrap-input100 validate-input"> 
+							Evidence against the unhelpful thoughts
+						<textarea class="input100" name="message" placeholder="Evidence against "></textarea>
+						<span class="focus-input100"></span>
+					</div>
+	
+					<div class="wrap-input100 validate-input"> 
+							Rational Counterstatement/Alternate thoughts
+						<textarea class="input100" name="message" placeholder="Rational Counterstatement"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input"> 
+							New Emotion & Behavior
+						<textarea class="input100" name="message" placeholder="New Emotion & Behavior"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 validate-input"> 
+							What can I do different?!
+						<textarea class="input100" name="message" placeholder="different Behavior"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+
+ 
+					<div class="container-contact100-form-btn">
+							<button class="contact100-form-btn" onclick="setDiv(3 , 4)" type="button">
+								prev
+							</button>
+						<button class="contact100-form-btn" onclick="setDiv(5 , 4)" type="button">
+							next
+						</button>
+					</div>
+				</div>
+				<div class="div2" hidden>
+					
+						<span class="contact100-form-title">
+								Feelings and Emotions
+							</span> 
+			
+							<div class="wrap-input100">
+									<table style="width: 80%;" border="1" dir="rtl">
+											<tbody>
+											<tr>
+											<td align="right" width="20%"><b>עוצמת הרגש:</b></td>
+											<td align="center" width="20%"><b>שמח </b></td>
+											<td align="center" width="20%"><b>עצוב </b></td>
+											<td align="center" width="20%"><b>כועס </b></td>
+											<td align="center" width="20%"><b>מבולבל</b></td>
+											</tr>
+											<tr>
+											<td align="right" width="20%"><b><span style="font-size: large;">גבוהה</span></b></td>
+											<td align="right" valign="top" width="20%">
+												<p>מרומם רוח</p>
+											<p>מרוגש</p>
+											<p>מאושר</p>
+											<p>רוטט/רועד משמחה</p>
+											<p>שופע חיים</p>
+	<p>										מלא מרץ</p>
+											<p>נלהב</p>
+											<p>משולהב</p>
+											<p>שבע רצון</p>
+											<td align="right" valign="top" width="20%">
+												<p>מאוכזב</p>
+											<p>ערירי</p>
+											<p>בודד</p>
+											<p>פגוע</p>
+											<p>רפוי ידיים</p>
+											<p>אבוד</p>
+											<p>חסר תקווה</p>
+											<p>נוגה</p>
+											<p>"הרוס"</p>
+										<p>	שבור</p>
+											<p><td align="right" valign="top" width="20%"><p>רוגז</p>
+											<p>זועם</p>
+											<p>קוצף</p>
+											<p>מזועזע</p>
+											<p>רותח</p>
+											<p>סוער</p>
+											<p>גועש</p>
+											<td align="right" valign="top" width="20%">
+												<p>לכוד</p>
+											<p>מוטרד</p>
+											<p>מודאג</p>
+											<p>נואש</p>
+											<p>אבוד</p>
+											<p>מבוהל</p>
+										<p>מעורער</p>	
+											</tr>
+											<tr>
+											<td align="right" width="20%"><b><span style="font-size: large;">בינונית</span></b></td>
+											<td align="right" valign="top" width="20%">
+												<p>עליז</p>
+											<p>טוב</p>
+											<p>נעים</p>
+											<p>מהנה</p>
+											<p>חיובי</p>
+											<p>משוחרר</p>
+										<p>רגוע</p>	
+											<td align="right" valign="top" width="20%">
+	<p>											שבור לב</p>
+											<p>מדוכדך</p>
+											<p>מודאג</p>
+											<p>במצוקה</p>
+										<p>	מלא צער</p>
+											<td align="right" valign="top" width="20%">
+												<p>מודאג</p>
+											<p>עצבני</p>
+											<p>נרגז</p>
+											<p>מתוסכל</p>
+											<p>מוטרד</p>
+											<p>מחומם</p>
+										<p>	אחוז בחילה</p>
+											<td align="right" valign="top" width="20%">
+												<p>משובש</p>
+											<p>מעורפל</p>
+											<p>מטושטש</p>
+											<p>"לא מחובר"</p>
+											<p>"לא מפוקס"</p>
+											<p>מעורבב</p>
+										<p>אובד עצות</p>	
+											</tr>
+											<tr>
+											<td align="right" width="20%"><b><span style="font-size: large;">מתונה</span></b></td>
+											<td align="right" valign="top" width="20%">"
+												<p>בסדר"</p>
+											<p>מרוצה</p>
+											<p>מסופק</p>
+											<p>נעים</p>
+										<p>	נוח</p>
+											<td align="right" valign="top" width="20%">
+												<p>עצוב</p>
+											<p>"רע"</p>
+											<p>"מצוברח"</p>
+											<p>אומלל</p>
+											<p>אבוד</p>
+											<p>לא מרוצה</p>
+										<p>	לא טוב</p>
+											<td align="right" valign="top" width="20%">
+												<p>לחוץ</p>
+											<p>מתוח</p>
+											<p>מרוגז</p>
+										<p>רגיש, פגיע</p>	
+											<td align="right" valign="top" width="20%">
+												<p>מבולבל</p>
+											<p>נבוך</p>
+	<p>										לא בטוח</p>
+											<p>מוטרד</p>
+											<p>שקוע (במחשבות)</p>
+											<p>לא נוח</p>
+									<p>		מהסס</p>
+											</tr>
+											</tbody>
+											</table>
+							</div>
+			
+							<div class="container-contact100-form-btn">
+									<button class="contact100-form-btn" onclick="setDiv(1 , 2)" type="button">
+										prev
+									</button>
+									<button class="contact100-form-btn" onclick="setDiv(3 , 2)" type="button">
+										next
+									</button>
+							</div>
+				</div>
+				<div class="div5" hidden>
+					
+						<span class="contact100-form-title">
+								Feelings and Emotions
+							</span> 
+			
+							<div class="wrap-input100">
+									<table style="width: 80%;" border="1" dir="rtl">
+											<tbody>
+											<tr>
+											<td align="right" width="20%"><b>עוצמת הרגש:</b></td>
+											<td align="center" width="20%"><b>שמח </b></td>
+											<td align="center" width="20%"><b>עצוב </b></td>
+											<td align="center" width="20%"><b>כועס </b></td>
+											<td align="center" width="20%"><b>מבולבל</b></td>
+											</tr>
+											<tr>
+											<td align="right" width="20%"><b><span style="font-size: large;">גבוהה</span></b></td>
+											<td align="right" valign="top" width="20%">
+												<p>מרומם רוח</p>
+											<p>מרוגש</p>
+											<p>מאושר</p>
+											<p>רוטט/רועד משמחה</p>
+											<p>שופע חיים</p>
+	<p>										מלא מרץ</p>
+											<p>נלהב</p>
+											<p>משולהב</p>
+											<p>שבע רצון</p>
+											<td align="right" valign="top" width="20%">
+												<p>מאוכזב</p>
+											<p>ערירי</p>
+											<p>בודד</p>
+											<p>פגוע</p>
+											<p>רפוי ידיים</p>
+											<p>אבוד</p>
+											<p>חסר תקווה</p>
+											<p>נוגה</p>
+											<p>"הרוס"</p>
+										<p>	שבור</p>
+											<p><td align="right" valign="top" width="20%"><p>רוגז</p>
+											<p>זועם</p>
+											<p>קוצף</p>
+											<p>מזועזע</p>
+											<p>רותח</p>
+											<p>סוער</p>
+											<p>גועש</p>
+											<td align="right" valign="top" width="20%">
+												<p>לכוד</p>
+											<p>מוטרד</p>
+											<p>מודאג</p>
+											<p>נואש</p>
+											<p>אבוד</p>
+											<p>מבוהל</p>
+										<p>מעורער</p>	
+											</tr>
+											<tr>
+											<td align="right" width="20%"><b><span style="font-size: large;">בינונית</span></b></td>
+											<td align="right" valign="top" width="20%">
+												<p>עליז</p>
+											<p>טוב</p>
+											<p>נעים</p>
+											<p>מהנה</p>
+											<p>חיובי</p>
+											<p>משוחרר</p>
+										<p>רגוע</p>	
+											<td align="right" valign="top" width="20%">
+	<p>											שבור לב</p>
+											<p>מדוכדך</p>
+											<p>מודאג</p>
+											<p>במצוקה</p>
+										<p>	מלא צער</p>
+											<td align="right" valign="top" width="20%">
+												<p>מודאג</p>
+											<p>עצבני</p>
+											<p>נרגז</p>
+											<p>מתוסכל</p>
+											<p>מוטרד</p>
+											<p>מחומם</p>
+										<p>	אחוז בחילה</p>
+											<td align="right" valign="top" width="20%">
+												<p>משובש</p>
+											<p>מעורפל</p>
+											<p>מטושטש</p>
+											<p>"לא מחובר"</p>
+											<p>"לא מפוקס"</p>
+											<p>מעורבב</p>
+										<p>אובד עצות</p>	
+											</tr>
+											<tr>
+											<td align="right" width="20%"><b><span style="font-size: large;">מתונה</span></b></td>
+											<td align="right" valign="top" width="20%">"
+												<p>בסדר"</p>
+											<p>מרוצה</p>
+											<p>מסופק</p>
+											<p>נעים</p>
+										<p>	נוח</p>
+											<td align="right" valign="top" width="20%">
+												<p>עצוב</p>
+											<p>"רע"</p>
+											<p>"מצוברח"</p>
+											<p>אומלל</p>
+											<p>אבוד</p>
+											<p>לא מרוצה</p>
+										<p>	לא טוב</p>
+											<td align="right" valign="top" width="20%">
+												<p>לחוץ</p>
+											<p>מתוח</p>
+											<p>מרוגז</p>
+										<p>רגיש, פגיע</p>	
+											<td align="right" valign="top" width="20%">
+												<p>מבולבל</p>
+											<p>נבוך</p>
+	<p>										לא בטוח</p>
+											<p>מוטרד</p>
+											<p>שקוע (במחשבות)</p>
+											<p>לא נוח</p>
+									<p>		מהסס</p>
+											</tr>
+											</tbody>
+											</table>
+							</div>
+			
+							<div class="container-contact100-form-btn">
+									<button class="contact100-form-btn" onclick="setDiv(4 , 5)" type="button">
+										prev
+									</button>
+									<button class="contact100-form-btn" onclick="save()" type="button">
+										next
+									</button>
+							</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================--> 
+<script src="js/main.js"></script>
+
+</body>
+</html>
