@@ -4,7 +4,7 @@ function setDiv(divNum, currDIv) {
     $('.div' + currDIv)[0].setAttribute("hidden", "");
 }
 
-$('table p').on('click', function () {
+$('table td').on('click', function () {
     $(this).toggleClass("blue")
 })
 
@@ -18,6 +18,7 @@ function save() {
     for (let i = 0; i < elements.length; i++) {
         obj[elements[i].placeholder] = elements[i].value;
     }
+    
 
     console.log(obj);
 
