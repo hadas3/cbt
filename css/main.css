@@ -1,4 +1,14 @@
 
+.cards{
+  display:grid;
+  grid-template-columns: repeat(auto-fill,minmax(240px, 350px));
+  grid-gap: 10px;
+}
+.card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 20px;
+}
 table {
   width: 100%;
   direction: rtl;
