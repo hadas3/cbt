@@ -18,6 +18,12 @@ function save() {
     for (let i = 0; i < elements.length; i++) {
         obj[elements[i].placeholder] = elements[i].value;
     }
+
+    var feelings =$('.div2 td.blue');
+    obj.firstFeelings = [...feelings].map(i=>i.innerText)
+    feelings =$('.div5 td.blue');
+    obj.secondFeelings = [...feelings].map(i=>i.innerText)
+
     
 
     console.log(obj);
