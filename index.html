@@ -1,413 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>cbt</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 </head>
+
 <body>
- 	<div class="container-contact100">
+	<div class="container-contact100">
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form ">
 				<div class="div1">
-				<span class="contact100-form-title">
-					New Event
-				</span>
-
-				<div class="wrap-input100 validate-input"  >
-					<input class="input100" type="text" name="name" placeholder="Title">
-					<span class="focus-input100"></span>
-				</div>
-
-				<div class="wrap-input100">
-					<input class="input100" type="date" name="date" placeholder="date">
-					<span class="focus-input100"></span>
-				</div>
-
-				<div class="wrap-input100 validate-input"  >
-						Situation or event:
-					<textarea class="input100" name="message" placeholder="Situation or event"></textarea>
-					<span class="focus-input100"></span>
-				</div>
-
-				<div class="container-contact100-form-btn">
-					<button class="contact100-form-btn" onclick="setDiv(2 , 1)" type="button">
-						next
-					</button>
-				</div>
-			</div>
-			<div class="div3" hidden>
 					<span class="contact100-form-title">
-						 התמודדות נוכחית  
+						New Event
 					</span>
-	
+
 					<div class="wrap-input100 validate-input">
-						<input class="input100" type="text" name="name" placeholder="הרגשה פיסית">
-						<span class="focus-input100"></span>
-					</div>
-	 
-	
-					<div class="wrap-input100 validate-input"  >
-							Thoughts (Unhelpful)
-						<textarea class="input100" name="message" placeholder="Thoughts"></textarea>
-						<span class="focus-input100"></span>
-					</div>
-	
-					<div class="wrap-input100 validate-input"> 
-							How did you interpret what happened?
-						<textarea class="input100" name="message" placeholder="interpretation"></textarea>
-						<span class="focus-input100"></span>
-					</div>
-	
-					<div class="wrap-input100 validate-input"> 
-							Consequence/ Behavior
-						<textarea class="input100" name="message" placeholder="Consequence"></textarea>
+						<input class="input100" type="text" name="name" placeholder="Title">
 						<span class="focus-input100"></span>
 					</div>
 
-					<div class="wrap-input100 validate-input"> 
-							What meaning did it have for you?
-						<textarea class="input100" name="message" placeholder="What meaning did it have for you?"></textarea>
-						<span class="focus-input100"></span>
-					</div>
-					<div class="wrap-input100 validate-input"> 
-							Belifs
-						<textarea class="input100" name="message" placeholder="Belifs"></textarea>
+					<div class="wrap-input100">
+						<input class="input100" type="date" name="date" placeholder="date">
 						<span class="focus-input100"></span>
 					</div>
 
-
-					<div class="wrap-input100 validate-input"> 
-							What experiences have you had which influence your interpretations
-						<textarea class="input100" name="message" placeholder="experiences  influencing"></textarea>
+					<div class="wrap-input100 validate-input">
+						Situation or event:
+						<textarea class="input100" name="message" placeholder="Situation or event"></textarea>
 						<span class="focus-input100"></span>
 					</div>
+
 					<div class="container-contact100-form-btn">
-							<button class="contact100-form-btn" onclick="setDiv(2 , 3)" type="button">
-								prev
-							</button>
-						<button class="contact100-form-btn" onclick="setDiv(4 , 3)" type="button">
+						<button class="contact100-form-btn" onclick="setDiv(2 , 1)" type="button">
 							next
 						</button>
 					</div>
 				</div>
-				
-			<div class="div4" hidden> 
+				<div class="div3" hidden>
 					<span class="contact100-form-title">
-						התמודדות טובה יותר 
-					</span> 
-	
-					<div class="wrap-input100 validate-input"  >
-							facts that support the unhelpful thoughts
-						<textarea class="input100" name="message" placeholder="facts that support the unhelpful thoughts"></textarea>
+						התמודדות נוכחית
+					</span>
+
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="text" name="name" placeholder="הרגשה פיסית">
 						<span class="focus-input100"></span>
 					</div>
-	
-					<div class="wrap-input100 validate-input"> 
-							Evidence against the unhelpful thoughts
+
+
+					<div class="wrap-input100 validate-input">
+						Thoughts (Unhelpful)
+						<textarea class="input100" name="message" placeholder="Thoughts"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input">
+						How did you interpret what happened? / What meaning did it have for you?
+						<textarea class="input100" name="message" placeholder="interpretation"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input">
+						What experiences have you had which influence your interpretations
+						<textarea class="input100" name="message" placeholder="experiences  influencing"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 validate-input">
+						Consequence/ Behavior
+						<textarea class="input100" name="message" placeholder="Consequence"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input">
+						facts that supportthe unhelpful thoughts
+						<textarea class="input100" name="message"
+							placeholder="facts that supportthe unhelpful thoughts"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 validate-input">
+						Evidence against the unhelpful thoughts
+						<textarea class="input100" name="message"
+							placeholder="Evidence against the unhelpful thoughts"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+
+
+					<div class="container-contact100-form-btn">
+						<button class="contact100-form-btn" onclick="setDiv(2 , 3)" type="button">
+							prev
+						</button>
+						<button class="contact100-form-btn" onclick="setDiv(4 , 3); document.querySelector('#txt4').focus()" type="button">
+							next
+						</button>
+					</div>
+				</div>
+
+				<div class="div4" hidden>
+					<span class="contact100-form-title">
+						התמודדות טובה יותר
+					</span>
+
+					<div class="wrap-input100 validate-input">
+						facts that support the unhelpful thoughts
+						<textarea class="input100" name="message" id="txt4"
+							placeholder="facts that support the unhelpful thoughts"></textarea>
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input">
+						Evidence against the unhelpful thoughts
 						<textarea class="input100" name="message" placeholder="Evidence against "></textarea>
 						<span class="focus-input100"></span>
 					</div>
-	
-					<div class="wrap-input100 validate-input"> 
-							Rational Counterstatement/Alternate thoughts
+
+					<div class="wrap-input100 validate-input">
+						Rational Counterstatement/Alternate thoughts
 						<textarea class="input100" name="message" placeholder="Rational Counterstatement"></textarea>
 						<span class="focus-input100"></span>
 					</div>
 
-					<div class="wrap-input100 validate-input"> 
-							New Emotion & Behavior
+					<div class="wrap-input100 validate-input">
+						New Emotion & Behavior
 						<textarea class="input100" name="message" placeholder="New Emotion & Behavior"></textarea>
 						<span class="focus-input100"></span>
 					</div>
-					<div class="wrap-input100 validate-input"> 
-							What can I do different?!
+					<div class="wrap-input100 validate-input">
+						What can I do different?!
 						<textarea class="input100" name="message" placeholder="different Behavior"></textarea>
 						<span class="focus-input100"></span>
 					</div>
 
- 
+
 					<div class="container-contact100-form-btn">
-							<button class="contact100-form-btn" onclick="setDiv(3 , 4)" type="button">
-								prev
-							</button>
+						<button class="contact100-form-btn" onclick="setDiv(3 , 4)" type="button">
+							prev
+						</button>
 						<button class="contact100-form-btn" onclick="setDiv(5 , 4)" type="button">
 							next
 						</button>
 					</div>
 				</div>
 				<div class="div2" hidden>
-					
-						<span class="contact100-form-title">
-								Feelings and Emotions
-							</span> 
-			
-							<div class="wrap-input100"> 
-								<table>
-												<tbody>
-												<tr>
-												<td>שמחה</td>
-												<td>פחד</td>
-												<td>כעס</td>
-												<td>עצב</td>
-												</tr>
-												<tr>
-												<td>אהבה</td>
-												<td>דאגה</td>
-												<td>
-												<p>תיעוב</p>
-												</td>
-												<td>מבוכה</td>
-												</tr>
-												<tr>
-												<td>הערצה</td>
-												<td>בהלה</td>
-												<td>עלבון</td>
-												<td>יגון</td>
-												</tr>
-												<tr>
-												<td>קבלה</td>
-												<td>אימה</td>
-												<td>תדהמה</td>
-												<td>דכדוך</td>
-												</tr>
-												<tr>
-												<td>הערכה</td>
-												<td>היסטריה</td>
-												<td>שנאה</td>
-												<td>צער</td>
-												</tr>
-												<tr>
-												<td>אמון</td>
-												<td>יראה</td>
-												<td>סלידה</td>
-												<td>שעמום</td>
-												</tr>
-												<tr>
-												<td>אומץ</td>
-												<td>אדישות</td>
-												<td>תיעוב</td>
-												<td>עומס</td>
-												</tr>
-												<tr>
-												<td>שלווה</td>
-												<td>קנאה</td>
-												<td>ניכור</td>
-												<td>בדידות</td>
-												</tr>
-												<tr>
-												<td>הודיה</td>
-												<td>מחנק</td>
-												<td>נקמה</td>
-												<td>ייאוש</td>
-												</tr>
-												<tr>
-												<td>ביטחון</td>
-												<td>חרדה</td>
-												<td>תדהמה&nbsp;</td>
-												<td>אכזבה&nbsp;</td>
-												</tr>
-												<tr>
-												<td>אושר</td>
-												<td>קנאה</td>
-												<td>עצבנות</td>
-												<td>&nbsp;אשמה</td>
-												</tr>
-												<tr>
-												<td>רוגע</td>
-												<td>כלוא</td>
-												<td>לחץ</td>
-												<td>&nbsp;דכדוך</td>
-												</tr>
-												<tr>
-												<td>נחמה</td>
-												<td>מתח&nbsp;</td>
-												<td>מרומה</td>
-												<td>&nbsp;געגוע</td>
-												</tr>
-												<tr>
-												<td>שלמות</td>
-												<td>קיפאון</td>
-												<td>מלוכלך</td>
-												<td>מועקה&nbsp;</td>
-												</tr>
-												<tr>
-												<td>איחוד</td>
-												<td>אטימות</td>
-												<td>מנוצל</td>
-												<td>סבל&nbsp;</td>
-												</tr>
-												<tr>
-												<td>שיתופיות</td>
-												<td>אפתיות</td>
-												<td>מנודה</td>
-												<td>חוסר ערך&nbsp;</td>
-												</tr>
-												<tr>
-												<td>שייכות</td>
-												<td>פרפרים בבטן</td>
-												<td>מקולל</td>
-												<td>עייפות&nbsp;</td>
-												</tr>
-												<tr>
-												<td>סיפוק</td>
-												<td>בחילה</td>
-												<td>מקופח</td>
-												<td>&nbsp;נקיפות מצפון</td>
-												</tr>
-												</tbody>
-												</table>
-							</div>
-			
-							<div class="container-contact100-form-btn">
-									<button class="contact100-form-btn" onclick="setDiv(1 , 2)" type="button">
-										prev
-									</button>
-									<button class="contact100-form-btn" onclick="setDiv(3 , 2)" type="button">
-										next
-									</button>
-							</div>
-				</div>
-				<div class="div5" hidden>
-					
-						<span class="contact100-form-title">
-								Feelings and Emotions
-							</span> 
-			
-							<div class="wrap-input100">
-								<table>
-									<tbody>
-									<tr>
+
+					<span class="contact100-form-title">
+						Feelings and Emotions
+					</span>
+
+					<div class="wrap-input100">
+						<table>
+							<tbody>
+								<tr>
 									<td>שמחה</td>
 									<td>פחד</td>
 									<td>כעס</td>
 									<td>עצב</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>אהבה</td>
 									<td>דאגה</td>
 									<td>
-									<p>תיעוב</p>
+										<p>תיעוב</p>
 									</td>
 									<td>מבוכה</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>הערצה</td>
 									<td>בהלה</td>
 									<td>עלבון</td>
 									<td>יגון</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>קבלה</td>
 									<td>אימה</td>
 									<td>תדהמה</td>
 									<td>דכדוך</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>הערכה</td>
 									<td>היסטריה</td>
 									<td>שנאה</td>
 									<td>צער</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>אמון</td>
 									<td>יראה</td>
 									<td>סלידה</td>
 									<td>שעמום</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>אומץ</td>
 									<td>אדישות</td>
 									<td>תיעוב</td>
 									<td>עומס</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>שלווה</td>
 									<td>קנאה</td>
 									<td>ניכור</td>
 									<td>בדידות</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>הודיה</td>
 									<td>מחנק</td>
 									<td>נקמה</td>
 									<td>ייאוש</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>ביטחון</td>
 									<td>חרדה</td>
 									<td>תדהמה&nbsp;</td>
 									<td>אכזבה&nbsp;</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>אושר</td>
 									<td>קנאה</td>
 									<td>עצבנות</td>
 									<td>&nbsp;אשמה</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>רוגע</td>
 									<td>כלוא</td>
 									<td>לחץ</td>
 									<td>&nbsp;דכדוך</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>נחמה</td>
 									<td>מתח&nbsp;</td>
 									<td>מרומה</td>
 									<td>&nbsp;געגוע</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>שלמות</td>
 									<td>קיפאון</td>
 									<td>מלוכלך</td>
 									<td>מועקה&nbsp;</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>איחוד</td>
 									<td>אטימות</td>
 									<td>מנוצל</td>
 									<td>סבל&nbsp;</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>שיתופיות</td>
 									<td>אפתיות</td>
 									<td>מנודה</td>
 									<td>חוסר ערך&nbsp;</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>שייכות</td>
 									<td>פרפרים בבטן</td>
 									<td>מקולל</td>
 									<td>עייפות&nbsp;</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>סיפוק</td>
 									<td>בחילה</td>
 									<td>מקופח</td>
 									<td>&nbsp;נקיפות מצפון</td>
-									</tr>
-									</tbody>
-									</table>
-							</div>
-			
-							<div class="container-contact100-form-btn">
-									<button class="contact100-form-btn" onclick="setDiv(4 , 5)" type="button">
-										prev
-									</button>
-									<button class="contact100-form-btn" onclick="save()" type="button">
-										next
-									</button>
-							</div>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="container-contact100-form-btn">
+						<button class="contact100-form-btn" onclick="setDiv(1 , 2)" type="button">
+							prev
+						</button>
+						<button class="contact100-form-btn" onclick="setDiv(3 , 2)" type="button">
+							next
+						</button>
+					</div>
+				</div>
+				<div class="div5" hidden>
+
+					<span class="contact100-form-title">
+						Feelings and Emotions
+					</span>
+
+					<div class="wrap-input100">
+						<table>
+							<tbody>
+								<tr>
+									<td>שמחה</td>
+									<td>פחד</td>
+									<td>כעס</td>
+									<td>עצב</td>
+								</tr>
+								<tr>
+									<td>אהבה</td>
+									<td>דאגה</td>
+									<td>
+										<p>תיעוב</p>
+									</td>
+									<td>מבוכה</td>
+								</tr>
+								<tr>
+									<td>הערצה</td>
+									<td>בהלה</td>
+									<td>עלבון</td>
+									<td>יגון</td>
+								</tr>
+								<tr>
+									<td>קבלה</td>
+									<td>אימה</td>
+									<td>תדהמה</td>
+									<td>דכדוך</td>
+								</tr>
+								<tr>
+									<td>הערכה</td>
+									<td>היסטריה</td>
+									<td>שנאה</td>
+									<td>צער</td>
+								</tr>
+								<tr>
+									<td>אמון</td>
+									<td>יראה</td>
+									<td>סלידה</td>
+									<td>שעמום</td>
+								</tr>
+								<tr>
+									<td>אומץ</td>
+									<td>אדישות</td>
+									<td>תיעוב</td>
+									<td>עומס</td>
+								</tr>
+								<tr>
+									<td>שלווה</td>
+									<td>קנאה</td>
+									<td>ניכור</td>
+									<td>בדידות</td>
+								</tr>
+								<tr>
+									<td>הודיה</td>
+									<td>מחנק</td>
+									<td>נקמה</td>
+									<td>ייאוש</td>
+								</tr>
+								<tr>
+									<td>ביטחון</td>
+									<td>חרדה</td>
+									<td>תדהמה&nbsp;</td>
+									<td>אכזבה&nbsp;</td>
+								</tr>
+								<tr>
+									<td>אושר</td>
+									<td>קנאה</td>
+									<td>עצבנות</td>
+									<td>&nbsp;אשמה</td>
+								</tr>
+								<tr>
+									<td>רוגע</td>
+									<td>כלוא</td>
+									<td>לחץ</td>
+									<td>&nbsp;דכדוך</td>
+								</tr>
+								<tr>
+									<td>נחמה</td>
+									<td>מתח&nbsp;</td>
+									<td>מרומה</td>
+									<td>&nbsp;געגוע</td>
+								</tr>
+								<tr>
+									<td>שלמות</td>
+									<td>קיפאון</td>
+									<td>מלוכלך</td>
+									<td>מועקה&nbsp;</td>
+								</tr>
+								<tr>
+									<td>איחוד</td>
+									<td>אטימות</td>
+									<td>מנוצל</td>
+									<td>סבל&nbsp;</td>
+								</tr>
+								<tr>
+									<td>שיתופיות</td>
+									<td>אפתיות</td>
+									<td>מנודה</td>
+									<td>חוסר ערך&nbsp;</td>
+								</tr>
+								<tr>
+									<td>שייכות</td>
+									<td>פרפרים בבטן</td>
+									<td>מקולל</td>
+									<td>עייפות&nbsp;</td>
+								</tr>
+								<tr>
+									<td>סיפוק</td>
+									<td>בחילה</td>
+									<td>מקופח</td>
+									<td>&nbsp;נקיפות מצפון</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="container-contact100-form-btn">
+						<button class="contact100-form-btn" onclick="setDiv(4 , 5)" type="button">
+							prev
+						</button>
+						<button class="contact100-form-btn" onclick="save()" type="button">
+							next
+						</button>
+					</div>
 				</div>
 			</form>
 		</div>
@@ -417,10 +422,11 @@
 
 	<div id="dropDownSelect1"></div>
 
-<!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script> 
-<!--===============================================================================================--> 
-<script src="js/main.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
 
 </body>
+
 </html>
